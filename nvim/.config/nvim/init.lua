@@ -1,4 +1,5 @@
 --require('impatient')
+--require('lualine')
 require('utils')
 require('plugins')
 require('keymaps')
@@ -7,7 +8,6 @@ require('colorscheme')
 require('nvimtree')
 require('lspcmp')
 require('treesitter')
-require('lualine')
 require('blankline')
 --require('term')
 

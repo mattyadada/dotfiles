@@ -11,7 +11,7 @@ return require('packer').startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
     use 'EdTsft/vim-qrc'
     use 'fladson/vim-kitty'
-    use 'nvim-lualine/lualine.nvim'
+   -- use 'nvim-lualine/lualine.nvim'
 
 
 
@@ -23,10 +23,10 @@ return require('packer').startup(function(use)
 
      -- nvim file tree that includes devicons
 
-    --use {
-        --'nvim-lualine/lualine.nvim',
-        --        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    --}
+    use {
+        'nvim-lualine/lualine.nvim',
+                requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 
     use {
 	    'windwp/nvim-autopairs', 

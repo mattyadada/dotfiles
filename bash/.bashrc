@@ -100,8 +100,8 @@ plugins=(
 
 source "$OSH"/oh-my-bash.sh
 #source $HOME/.config/nvim/plug-config/rnvimr.vim
-export VISUAL=vim
-export EDITOR=vim
+#export VISUAL=vim
+#export EDITOR=vim
 
 # User configuration
 export MANPATH="/usr/local/man:$MANPATH"
