@@ -2,7 +2,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use 'joshdick/onedark.vim' --> one dark color theme
-    use {'ellisonleao/gruvbox.nvim'} --> gruvbox color theme
+    use 'ellisonleao/gruvbox.nvim' --> gruvbox color theme
     use 'arcticicestudio/nord-vim'
     use 'nvim-tree/nvim-web-devicons' --> nvim icons
     use 'nvim-lua/plenary.nvim'
@@ -11,6 +11,8 @@ return require('packer').startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
     use 'EdTsft/vim-qrc'
     use 'fladson/vim-kitty'
+    use 'nvim-lualine/lualine.nvim'
+
 
 
 
@@ -19,16 +21,12 @@ return require('packer').startup(function(use)
         requires ='nvim-tree/nvim-web-devicons',  
         tag = 'nightly' }
 
-
-
-
-
      -- nvim file tree that includes devicons
 
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    --use {
+        --'nvim-lualine/lualine.nvim',
+        --        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    --}
 
     use {
 	    'windwp/nvim-autopairs', 

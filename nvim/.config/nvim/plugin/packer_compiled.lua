@@ -210,6 +210,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/monte/.local/share/nvim/site/pack/packer/start/vim-kitty",
     url = "https://github.com/fladson/vim-kitty"
+  },
+  ["vim-qrc"] = {
+    loaded = true,
+    path = "/home/monte/.local/share/nvim/site/pack/packer/start/vim-qrc",
+    url = "https://github.com/EdTsft/vim-qrc"
   }
 }
 
