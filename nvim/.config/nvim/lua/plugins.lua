@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
     use 'EdTsft/vim-qrc'
     use 'fladson/vim-kitty'
+
    -- use 'nvim-lualine/lualine.nvim'
 
 

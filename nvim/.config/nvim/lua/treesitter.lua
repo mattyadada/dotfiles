@@ -12,6 +12,12 @@ if not status_ok then
 end
 
 configs.setup{
+    rainbow = {
+        enable = true,
+        extended_mode = true,
+        max_file_lines = nil, 
+
+    },
     ensure_installed = "all",
     sync_install = false,
     ignore_install = {""},
