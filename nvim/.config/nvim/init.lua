@@ -8,8 +8,9 @@ require('colorscheme')
 require('nvimtree')
 require('lspcmp')
 require('treesitter')
-require('blankline')
---require('term')
+--require('blankline')
+require('which')
+require('term')
 
 
 
