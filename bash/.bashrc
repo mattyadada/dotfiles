@@ -130,11 +130,14 @@ fi
 # alias
 
 alias okular="org.kde.okular"
+alias battery="sudo tlp start"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias alacrittyconfig="nvim ~/.config/alacritty/alacritty.yml"
 alias rangerconfig="nvim ~/.config/ranger/"
 alias ll="ll -al"
 alias update="bash update.sh"
+alias commit="./commit.sh"
+alias root="./root.sh"
 alias vimconfig="vim ~/.config/nvim"
 alias d="cd ~/Desktop"
 alias bashconfig="vim ~/.bashrc"
