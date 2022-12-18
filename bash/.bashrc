@@ -11,6 +11,10 @@ export OSH='/home/monte/.oh-my-bash'
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="purity"
 
+
+if [[ $TERM = xterm ]]; then
+    TERM=xterm-256color
+fi
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 

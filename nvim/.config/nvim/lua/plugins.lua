@@ -12,13 +12,20 @@ return require('packer').startup(function(use)
     use 'EdTsft/vim-qrc'
     use 'fladson/vim-kitty'
     use 'Mofiqul/dracula.nvim'
-    use 'folke/which-key.nvim'
 
    -- use 'nvim-lualine/lualine.nvim'
 
 
 
 
+use {
+    'folke/which-key.nvim',
+    config = function()
+        require('which-key').setup {
+            
+        }
+    end
+}
     use {
         'nvim-tree/nvim-tree.lua',
         requires ='nvim-tree/nvim-web-devicons',  

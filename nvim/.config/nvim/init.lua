@@ -1,4 +1,4 @@
---require('impatient')
+require('impatient')
 --require('lualine')
 require('utils')
 require('plugins')
@@ -9,7 +9,7 @@ require('nvimtree')
 require('lspcmp')
 require('treesitter')
 --require('blankline')
-require('which')
+--require('which')
 require('term')
 
 
