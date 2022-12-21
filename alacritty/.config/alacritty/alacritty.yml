@@ -9,12 +9,16 @@ window:
   padding:
     x: 0
     y: 0
-  opacity: 0.94
+  opacity: .7
   dynamic_padding: false
   title: Alacritty!
   dynamic_title: true
 font:
+  normal:
+    family: Inconsolata
+      #family: Hack
+    #family: Fira Code Nerd Font
   size:  8.5
 
-
-    
+import: 
+    - ~/.alacritty-colorscheme/themes/pencil_dark.yaml

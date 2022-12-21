@@ -2,6 +2,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use 'joshdick/onedark.vim' --> one dark color theme
+    use 'chrisbra/Colorizer'
     use 'ellisonleao/gruvbox.nvim' --> gruvbox color theme
     use 'arcticicestudio/nord-vim'
     use 'nvim-tree/nvim-web-devicons' --> nvim icons
