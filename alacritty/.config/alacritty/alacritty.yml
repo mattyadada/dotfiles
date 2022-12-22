@@ -21,4 +21,6 @@ font:
   size:  8.5
 
 import: 
-    - ~/.alacritty-colorscheme/themes/pencil_dark.yaml
+      - ~/.alacritty-colorscheme/themes/base16_default_dark.yaml
+      #- ~/.alacritty-colorscheme/themes/wombat.yaml
+      #- ~/.alacritty-colorscheme/themes/blood_moon.yaml
