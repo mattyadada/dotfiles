@@ -13,12 +13,10 @@ return require('packer').startup(function(use)
     use 'EdTsft/vim-qrc'
     use 'fladson/vim-kitty'
     use 'Mofiqul/dracula.nvim'
+    use 'terrortylor/nvim-comment'
 
    -- use 'nvim-lualine/lualine.nvim'
-
-
-
-
+    
 use {
     'folke/which-key.nvim',
     config = function()
